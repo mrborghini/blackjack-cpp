@@ -3,7 +3,7 @@
 #include <iostream>
 #include <map>
 
-namespace blackjack {
+namespace blackjacklib {
 
 // Overload operator<< for suit
 std::ostream& operator<<(std::ostream& os, Suit s) {
@@ -80,4 +80,4 @@ int get_suit_length() { return 5; }
 
 int get_values_length() { return 14; }
 
-}  // namespace blackjack
+}  // namespace blackjacklib
