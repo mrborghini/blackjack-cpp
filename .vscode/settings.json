@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 2,
+    "files.associations": {
+      "iostream": "cpp",
+      "iterator": "cpp",
+      "xmemory": "cpp",
+      "xutility": "cpp",
+      "xtree": "cpp",
+      "iosfwd": "cpp"
+    },
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "cmake.options.statusBarVisibility": "visible",
+    "files.autoSave": "afterDelay",
+    "editor.detectIndentation": false,
+}
