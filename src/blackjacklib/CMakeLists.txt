@@ -2,6 +2,7 @@
 add_library(blackjacklib_lib
     card.cpp
     suit.cpp
+    deck.cpp
 )
 
 # Include directories for the blackjack library
