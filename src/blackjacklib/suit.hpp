@@ -1,7 +1,7 @@
 #ifndef SUIT_HPP
 #define SUIT_HPP
 #include <iostream>
-namespace blackjack {
+namespace blackjacklib {
 
 // Enum for suits
 enum Suit {
@@ -39,6 +39,6 @@ std::ostream& operator<<(std::ostream& os, SuitValue v);
 int get_suit_length();
 int get_values_length();
 
-}  // namespace blackjack
+}  // namespace blackjacklib
 
 #endif  // SUIT_HPP

@@ -1,20 +1,20 @@
 #include <iostream>
 
-#include "blackjack/card.hpp"
-#include "blackjack/suit.hpp"
+#include "blackjacklib/card.hpp"
+#include "blackjacklib/suit.hpp"
 
 int main(int argc, char const* argv[]) {
-  int size =
-      (blackjack::get_suit_length() - 1) * (blackjack::get_values_length() - 1);
+  int size = (blackjacklib::get_suit_length() - 1) *
+             (blackjacklib::get_values_length() - 1);
 
-  blackjack::card* cards = new blackjack::card[size];
+  blackjacklib::card* cards = new blackjacklib::card[size];
 
   int card_index = 0;
 
-  for (int i = 1; i < blackjack::get_suit_length(); i++) {
-    for (int j = 1; j < blackjack::get_values_length(); j++) {
+  for (int i = 1; i < blackjacklib::get_suit_length(); i++) {
+    for (int j = 1; j < blackjacklib::get_values_length(); j++) {
       cards[card_index] =
-          blackjack::card(blackjack::Suit(i), blackjack::SuitValue(j));
+          blackjacklib::card(blackjacklib::Suit(i), blackjacklib::SuitValue(j));
       card_index++;
     }
   }

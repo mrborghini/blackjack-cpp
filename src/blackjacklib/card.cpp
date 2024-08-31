@@ -1,6 +1,6 @@
 #include "card.hpp"
 
-namespace blackjack {
+namespace blackjacklib {
 
 // Constructor
 card::card(Suit suit, SuitValue value) : card_suit(suit), card_value(value) {
@@ -18,4 +18,4 @@ Suit card::get_suit() const { return card_suit; }
 // Getter for card_value
 SuitValue card::get_value() const { return card_value; }
 
-}  // namespace blackjack
+}  // namespace blackjacklib

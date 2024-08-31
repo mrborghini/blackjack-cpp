@@ -3,7 +3,7 @@
 
 #include "suit.hpp"  // Assuming this contains the suit and suit_value definitions
 
-namespace blackjack {
+namespace blackjacklib {
 
 class card {
  private:
@@ -23,6 +23,6 @@ class card {
   SuitValue get_value() const;
 };
 
-}  // namespace blackjack
+}  // namespace blackjacklib
 
 #endif  // CARD_HPP
